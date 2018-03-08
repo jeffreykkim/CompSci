@@ -1,0 +1,2 @@
+This is your inventory!
+Press the escape key to leave.

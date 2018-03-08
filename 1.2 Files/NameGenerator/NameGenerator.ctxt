@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=NameGenerator
+comment1.params=
+comment1.target=NameGenerator()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ NameGenerator\r\n
+comment2.params=
+comment2.target=void\ main()
+comment3.params=
+comment3.target=java.lang.String\ getInput()
+comment4.params=array\ t
+comment4.target=int\ findIndex(java.lang.String[],\ java.lang.String)
+comment5.params=first\ last
+comment5.target=java.lang.String\ genFirstName(java.lang.String,\ java.lang.String)
+comment6.params=city\ school
+comment6.target=java.lang.String\ genLastName(java.lang.String,\ java.lang.String)
+comment7.params=memes
+comment7.target=int[]\ halfRange(java.lang.String)
+comment8.params=relative\ friend
+comment8.target=java.lang.String\ genOrigin(java.lang.String,\ java.lang.String)
+comment9.params=input
+comment9.target=int\ randNum(java.lang.String)
+numComments=10

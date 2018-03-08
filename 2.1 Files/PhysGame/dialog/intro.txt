@@ -1,0 +1,3 @@
+Welcome to the game! Move around using the arrow keys.
+Press the space bar to interact with objects and people.
+Press x to open your inventory.

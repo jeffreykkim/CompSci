@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Employee
+comment0.text=\r\n\ Enumeration\ class\ Employee\ -\ write\ a\ description\ of\ the\ enum\ class\ here\r\n\r\n\ @author\ (your\ name\ here)\r\n\ @version\ (version\ number\ or\ date\ here)\r\n
+comment1.params=em\ n\ stat\ sal
+comment1.target=Employee(int,\ java.lang.String,\ Employee.EmploymentStatus,\ double)
+comment2.params=i
+comment2.target=void\ setEmplNumbr(int)
+comment3.params=s
+comment3.target=void\ setName(java.lang.String)
+comment4.params=s
+comment4.target=void\ setStatus(Employee.EmploymentStatus)
+comment5.params=d
+comment5.target=void\ setSalary(double)
+comment6.params=
+comment6.target=int\ getEmplNmbr()
+comment7.params=
+comment7.target=java.lang.String\ getName()
+comment8.params=
+comment8.target=Employee.EmploymentStatus\ getStatus()
+comment9.params=
+comment9.target=double\ getSalary()
+numComments=10

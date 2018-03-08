@@ -1,0 +1,60 @@
+Class documentation
+<---- javadoc command: ---->
+C:\Program Files\Java\jdk1.6.0_21\bin\javadoc.exe
+-author
+-version
+-nodeprecated
+-protected
+-source
+1.6
+-noindex
+-notree
+-nohelp
+-nonavbar
+-d
+C:\Users\dee2010\Desktop\School Classes\CIS 425 Sabin\H2\fatcatCoolCat\fatcat\doc
+-classpath
+C:\Greenfoot\lib\extensions\greenfoot.jar;C:\Greenfoot\lib\bluejcore.jar;C:\Greenfoot\lib\bluejeditor.jar;C:\Greenfoot\lib\bluejext.jar;C:\Greenfoot\lib\antlr.jar;C:\Greenfoot\lib\MRJ141Stubs.jar;C:\Greenfoot\lib\junit.jar;C:\Greenfoot\lib\bluej.jar;C:\Greenfoot\lib\commons-httpclient-3.1.jar;C:\Greenfoot\lib\commons-logging-api-1.1.1.jar;C:\Greenfoot\lib\commons-codec-1.3.jar;C:\Users\dee2010\Desktop\School Classes\CIS 425 Sabin\H2\fatcatCoolCat\fatcat
+C:\Users\dee2010\Desktop\School Classes\CIS 425 Sabin\H2\fatcatCoolCat\fatcat\MyCat.java
+<---- end of javadoc command ---->
+Loading source file C:\Users\dee2010\Desktop\School Classes\CIS 425 Sabin\H2\fatcatCoolCat\fatcat\MyCat.java...
+C:\Users\dee2010\Desktop\School Classes\CIS 425 Sabin\H2\fatcatCoolCat\fatcat\MyCat.java:22: class, interface, or enum expected
+    public void act()
+           ^
+C:\Users\dee2010\Desktop\School Classes\CIS 425 Sabin\H2\fatcatCoolCat\fatcat\MyCat.java:26: class, interface, or enum expected
+    if (tired=true);
+    ^
+C:\Users\dee2010\Desktop\School Classes\CIS 425 Sabin\H2\fatcatCoolCat\fatcat\MyCat.java:27: class, interface, or enum expected
+      sleep(3);
+      ^
+C:\Users\dee2010\Desktop\School Classes\CIS 425 Sabin\H2\fatcatCoolCat\fatcat\MyCat.java:29: class, interface, or enum expected
+    if (tired=false);
+    ^
+C:\Users\dee2010\Desktop\School Classes\CIS 425 Sabin\H2\fatcatCoolCat\fatcat\MyCat.java:30: class, interface, or enum expected
+        shoutHooray();
+        ^
+C:\Users\dee2010\Desktop\School Classes\CIS 425 Sabin\H2\fatcatCoolCat\fatcat\MyCat.java:32: class, interface, or enum expected
+    if (bored=true);
+    ^
+C:\Users\dee2010\Desktop\School Classes\CIS 425 Sabin\H2\fatcatCoolCat\fatcat\MyCat.java:33: class, interface, or enum expected
+    dance();
+    ^
+C:\Users\dee2010\Desktop\School Classes\CIS 425 Sabin\H2\fatcatCoolCat\fatcat\MyCat.java:35: class, interface, or enum expected
+    if (hungry=true);
+    ^
+C:\Users\dee2010\Desktop\School Classes\CIS 425 Sabin\H2\fatcatCoolCat\fatcat\MyCat.java:36: class, interface, or enum expected
+    eat();
+    ^
+C:\Users\dee2010\Desktop\School Classes\CIS 425 Sabin\H2\fatcatCoolCat\fatcat\MyCat.java:38: class, interface, or enum expected
+    if (happy=true);
+    ^
+C:\Users\dee2010\Desktop\School Classes\CIS 425 Sabin\H2\fatcatCoolCat\fatcat\MyCat.java:39: class, interface, or enum expected
+    play();
+    ^
+C:\Users\dee2010\Desktop\School Classes\CIS 425 Sabin\H2\fatcatCoolCat\fatcat\MyCat.java:41: class, interface, or enum expected
+    Greenfoot.stop();
+    ^
+C:\Users\dee2010\Desktop\School Classes\CIS 425 Sabin\H2\fatcatCoolCat\fatcat\MyCat.java:42: class, interface, or enum expected
+  }  
+  ^
+13 errors

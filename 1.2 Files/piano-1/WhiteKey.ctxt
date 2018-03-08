@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=WhiteKey
+comment1.params=keyName\ soundName
+comment1.target=WhiteKey(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Do\ the\ action\ for\ this\ key.\r\n
+comment3.params=soundname
+comment3.target=void\ play(java.lang.String)
+comment4.params=
+comment4.target=int\ getWhiteKeyWidth()
+numComments=5
