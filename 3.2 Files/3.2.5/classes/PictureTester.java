@@ -68,22 +68,6 @@ public class PictureTester
 
     }
 
-    public static void testNegate()
-    {
-        Picture beach = new Picture("beach.jpg");
-        Pixel[][] pixels = beach.getPixels2D();
-        for (Pixel[] rowArray: pixels)
-        {
-            for (Pixel pixelObj : rowArray)
-            {
-                pixelObj.setRed(255 - pixelObj.getRed());
-                pixelObj.setGreen(255 - pixelObj.getGreen());
-                pixelObj.setBlue(255 - pixelObj.getBlue());
-            }
-        }
-        beach.explore();
-    }
-
     public static void testGrayscale()
     {
         Picture beach = new Picture("beach.jpg");
@@ -119,25 +103,6 @@ public class PictureTester
         } 
         beach.explore();
     }
-
-    public static void testMirrorHorizontal()
-    {
-        Picture beach = new Picture("beach.jpg");   
-        Pixel[][] pixels = beach.getPixels2D();
-        Pixel topPixel = null;
-        Pixel bottomPixel = null;
-        int height = pixels.length;
-        for (int row = 0; row < pixels.length / 2; row++)
-        {
-            for (int col = 0; col < pixels[row].length; col++)
-            {
-                topPixel = pixels[row][col];
-                bottomPixel = pixels[height - 1 - row][col];
-                bottomPixel.setColor(topPixel.getColor());
-            }
-        } 
-        beach.explore();
-    }
     
     public static void testMirrorArms()
     {
@@ -154,6 +119,22 @@ public class PictureTester
         gull.mirrorGull();
         gull.explore();
     }
+    
+    public static void testCopy()
+    {
+        Picture wall = new Picture("wall.jpg");
+        Picture blank = new Picture("640x480.jpg");        
+        wall.explore();
+        blank.copy(wall,88,505,92,434);
+        blank.explore();
+    }   
+    
+    public static void createCollage()
+    {
+        Picture blank = new Picture("640x480.jpg");        
+        blank.createCollage();
+        blank.explore();
+    }
     /** Main method for testing.  Every class can have a main
      * method in Java */
     public static void main(String[] args)
@@ -165,18 +146,16 @@ public class PictureTester
         testKeepOnlyBlue();
         //testKeepOnlyRed();
         //testKeepOnlyGreen();
-        testNegate();
         testGrayscale();
         //testFixUnderwater();
         //testMirrorVertical();
-        testMirrorHorizontal();
         testVerticalRightToLeft();
         //testMirrorTemple();
         testMirrorArms();
         testMirrorGull();
         //testMirrorDiagonal();
         //testCollage();
-        //testCopy();
+        testCopy();
         //testEdgeDetection();
         //testEdgeDetection2();
         //testChromakey();
