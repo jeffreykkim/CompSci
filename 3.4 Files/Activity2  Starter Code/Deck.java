@@ -19,7 +19,10 @@ public class Deck {
      * The next card to be dealt is at size - 1.
      */
     private int size;
-
+    public static String[]rank = new String[] {"One","Two","Three","Four","Five","Five",
+            "Six","Seven","Eight","Nine","Ten","Jack","Queen","King"};
+    public static String[]suit = new String[] {"Clubs","Hearts","Spades","Diamonds"};
+    public static int[] value = new int[] {1,2,3,4,5,6,7,8,9,10,11,12,13};
     /**
      * Creates a new Deck instance.
      * It pairs each element of ranks with each element of suits,
@@ -37,6 +40,7 @@ public class Deck {
                 cards.add(new Card(ranks[i],suits[n],values[i]));
             }
         }
+        size = ranks.length*suits.length;
     }
 
     /**
@@ -44,7 +48,11 @@ public class Deck {
      * @return true if this deck is empty, false otherwise.
      */
     public boolean isEmpty() {
-        /* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
+        if (size == 0)
+        {
+            return true;
+        }
+        return false;
     }
 
     /**
@@ -52,7 +60,7 @@ public class Deck {
      * @return the number of undealt cards in this deck.
      */
     public int size() {
-        /* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
+        return size;
     }
 
     /**
@@ -68,8 +76,10 @@ public class Deck {
      * @return the card just dealt, or null if all the cards have been
      *         previously dealt.
      */
-    public Card deal() {
-        /* *** TO BE IMPLEMENTED IN ACTIVITY 2 *** */
+    public Card deal() 
+    {
+        size --;
+        return cards.get(size-1);
     }
 
     /**
