@@ -9,15 +9,14 @@ public class Shuffler {
      * to each sorting procedure.
      */
     private static final int SHUFFLE_COUNT = 1;
-
-
+    private static final Random gen = new Random();
     /**
      * Tests shuffling methods.
      * @param args is not used.
      */
     public static void main(String[] args) {
         System.out.println("Results of " + SHUFFLE_COUNT +
-                                 " consecutive perfect shuffles:");
+            " consecutive perfect shuffles:");
         int[] values1 = {0, 1, 2, 3};
         for (int j = 1; j <= SHUFFLE_COUNT; j++) {
             perfectShuffle(values1);
@@ -30,7 +29,7 @@ public class Shuffler {
         System.out.println();
 
         System.out.println("Results of " + SHUFFLE_COUNT +
-                                 " consecutive efficient selection shuffles:");
+            " consecutive efficient selection shuffles:");
         int[] values2 = {0, 1, 2, 3};
         for (int j = 1; j <= SHUFFLE_COUNT; j++) {
             selectionShuffle(values2);
@@ -42,7 +41,6 @@ public class Shuffler {
         }
         System.out.println();
     }
-
 
     /**
      * Apply a "perfect shuffle" to the argument.
@@ -64,7 +62,10 @@ public class Shuffler {
             shuffled[k] = values[i];
             k +=2;
         }
-        values = java.util.Arrays.copyOf(shuffled,shuffled.length);
+        for (int i = 0; i < values.length; i++)
+        {
+            values[i] = shuffled[i];
+        }
     }
 
     /**
@@ -79,9 +80,12 @@ public class Shuffler {
      * @param values is an array of  integers simulating cards to be shuffled.
      */
     public static void selectionShuffle(int[] values) {
-        int[] shuffled = new int[values.length];
         for (int i = values.length - 1; i > 0; i--)
         {
-            
+            int rand = gen.nextInt(i+1);
+            int holder = values[rand];
+            values[rand] = values[i];
+            values[i] = holder;
+        }
     }
 }
