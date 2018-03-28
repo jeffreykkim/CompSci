@@ -10,6 +10,7 @@ public class Shuffler {
      */
     private static final int SHUFFLE_COUNT = 1;
     private static final Random gen = new Random();
+    private static boolean conditional;
     /**
      * Tests shuffling methods.
      * @param args is not used.
@@ -88,6 +89,7 @@ public class Shuffler {
             values[i] = holder;
         }
     }
+<<<<<<< HEAD
     
     public String flip()
     {
@@ -99,6 +101,47 @@ public class Shuffler {
         else
         {
             return "Heads";
+=======
+
+    public static String flip()
+    {
+        int n = gen.nextInt(3);
+        if (n == 3)
+        {
+            return "tails";
+        }
+        else 
+        {
+            return "heads";
+        }
+    }
+
+    public static boolean arePermutations(int[] a1, int[]a2)
+    {
+        for (int i : a1)
+        {
+            conditional = false;
+            for (int x = 0; x < a2.length; x++)
+            {
+                if (i == a2[x])
+                {
+                    conditional = true;
+                }
+            }
+            if (conditional == false)
+            {
+                return conditional;
+            }
+        }
+        if (Arrays.equals(a1,a2) == false && conditional == true)
+        {
+            return conditional;
+        }
+        else
+        {
+            return false;
+>>>>>>> d5d7c50d487b9810d8a2723315bcfe5d94666954
         }
     }
 }
+

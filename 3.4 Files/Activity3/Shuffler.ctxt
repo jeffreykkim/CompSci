@@ -11,4 +11,10 @@ comment3.target=void\ selectionShuffle(int[])
 comment3.text=\r\n\ Apply\ an\ "efficient\ selection\ shuffle"\ to\ the\ argument.\r\n\ The\ selection\ shuffle\ algorithm\ conceptually\ maintains\ two\ sequences\r\n\ of\ cards\:\ the\ selected\ cards\ (initially\ empty)\ and\ the\ not-yet-selected\r\n\ cards\ (initially\ the\ entire\ deck).\ It\ repeatedly\ does\ the\ following\ until\r\n\ all\ cards\ have\ been\ selected\:\ randomly\ remove\ a\ card\ from\ those\ not\ yet\r\n\ selected\ and\ add\ it\ to\ the\ selected\ cards.\r\n\ An\ efficient\ version\ of\ this\ algorithm\ makes\ use\ of\ arrays\ to\ avoid\r\n\ searching\ for\ an\ as-yet-unselected\ card.\r\n\ @param\ values\ is\ an\ array\ of\ \ integers\ simulating\ cards\ to\ be\ shuffled.\r\n
 comment4.params=
 comment4.target=java.lang.String\ flip()
+<<<<<<< HEAD
 numComments=5
+=======
+comment5.params=a1\ a2
+comment5.target=boolean\ arePermutations(int[],\ int[])
+numComments=6
+>>>>>>> d5d7c50d487b9810d8a2723315bcfe5d94666954
