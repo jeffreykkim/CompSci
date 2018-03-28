@@ -1,35 +1,18 @@
 #BlueJ package file
-<<<<<<< HEAD:3.4 Files/Activity3  Starter Code/package.bluej
-editor.fx.0.height=734
-editor.fx.0.width=812
-editor.fx.0.x=200
-editor.fx.0.y=0
-objectbench.height=175
-objectbench.width=521
-package.divider.horizontal=0.6567164179104478
-package.divider.vertical=0.8086225026288117
-package.editor.height=762
-package.editor.width=710
-package.editor.x=0
-package.editor.y=0
-package.frame.height=1050
-package.frame.width=840
-=======
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=275
 editor.fx.0.y=10
 objectbench.height=211
-objectbench.width=657
-package.divider.horizontal=0.599476439790576
-package.divider.vertical=0.677037037037037
-package.editor.height=450
+objectbench.width=390
+package.divider.horizontal=0.6006051437216339
+package.divider.vertical=0.6775147928994083
+package.editor.height=451
 package.editor.width=567
 package.editor.x=100
 package.editor.y=100
 package.frame.height=775
 package.frame.width=697
->>>>>>> 8a6129cdf24b6cfe39f4eb9f92fa7ec14013d735:3.4 Files/Activity3/package.bluej
 package.numDependencies=0
 package.numTargets=1
 package.showExtends=true
@@ -44,6 +27,7 @@ target1.height=50
 target1.name=Shuffler
 target1.showInterface=false
 target1.type=ClassTarget
+target1.typeParameters=
 target1.width=80
 target1.x=70
 target1.y=10

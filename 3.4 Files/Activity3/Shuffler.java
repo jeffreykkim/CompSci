@@ -88,4 +88,17 @@ public class Shuffler {
             values[i] = holder;
         }
     }
+    
+    public String flip()
+    {
+        int coin = gen.nextInt(3);
+        if (coin == 3)
+        {
+            return "Tails";
+        }
+        else
+        {
+            return "Heads";
+        }
+    }
 }
